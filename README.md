@@ -6,10 +6,12 @@
 - [x] A1
   - run hello world 
 
-
-- [ ] A2
-- [ ] A3
-- [ ] A4
+- [x] A2
+  - build and compil
+  
+- [x] A3
+  - comment
+- [x] A4
 - [ ] A5
 - [ ] A6
 - [ ] A7
