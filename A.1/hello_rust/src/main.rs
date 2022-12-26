@@ -130,13 +130,114 @@
 // A.7
 
 // satic keyword
-static NUMBER: i32 = 18;
+// static NUMBER: i32 = 18;
+
+// fn main() {
+//     const LABEL: &str = "nilai pi adalah : ";
+//     const PI :f32 = 22.0/7.0;
+//     println!("{} {}", LABEL, PI); 
+
+//     println!("{}", NUMBER);
+
+// }
+
+// A.8
+
+// fn main() {
+
+//     let number1 = 12;
+//     let number2 = 24;
+//     let perbandingan = number1  == number2;
+//     println!("hasil_perbandingan = {perbandingan}"); 
+
+//     // operator negasi 
+
+//     let (var1, var2) = (12,-12);
+
+//     let satu = var1 == var2;
+
+//     println!("{satu}");
+// }
+
+// A.9
+
+//fn main() {
+    // // if else 
+    // let n = 14;
+    // if  n < 13 {
+    //     println!("n dibawah 13")
+    // }else {
+    //     println!("n diatas  13")
+    // }
+
+
+    
+    // // Nested if 
+    // let x = 80;
+
+    // if 50  <  x {
+    //     println!("Anda Lulus!");
+    //     if x == 80 {
+    //         println!("nilai adan sudah cukup");
+    //     }
+    // } 
+
+    // // Return from if 
+
+    // let number = 5;
+    // let result : bool;
+
+    // if number == 5 {
+    //     result = true;
+    // } else {
+    //     result = false;
+    // }
+
+    // println!("result adalah {result}");
+
+    // let number  = 3 ;
+    // let result : &str = if number == 3 {
+    //     "angka adalah 3 "
+    // } else if number < 3 {
+    //     "angka di bawah 3"
+    // } else {
+    //     "angka di atas3"
+    // };
+
+    // println!("result : {result}");
+
+    
+
+//}
+
+// fn main () {
+
+//     let mut i = 0;
+//     let max = 5;
+
+//     while i < max {
+//         let mut j  = 0;
+//         let max_inner = i;
+//         while j <= max_inner {
+//             print!("* ");
+//             j +=1;
+//         }
+//     }
+
+    
+// }
+
+use std::thread::sleep;
+use std::time::Duration;
 
 fn main() {
-    const LABEL: &str = "nilai pi adalah : ";
-    const PI :f32 = 22.0/7.0;
-    println!("{} {}", LABEL, PI); 
+    let mut i = 0+1;
+    let max = 5;
 
-    println!("{}", NUMBER);
-    
+    while i <= max {
+        println!("nilai {i}");
+        i+=1;
+
+        sleep(Duration::from_secs(1));        
+    }
 }
