@@ -1,5 +1,7 @@
 ## Belajar rust
 
+![rust-image](img/rust-image.jpg)
+
 
 - [x] A1
   - run hello world 
