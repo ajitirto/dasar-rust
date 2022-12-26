@@ -96,3 +96,40 @@
 //     println!("{}", pointer);
 
 // }
+
+
+// A.6
+
+// fn main() {
+//     let var1: &str = "hello";
+//     println!("{}", var1);
+
+//     let var2 =
+//         "Halo \
+//         aji \
+//         tirto \
+//         ";
+//     println!("{}", var2);
+
+
+//     let var3 ="baris satu
+//     baris dua 
+//     baris tiga";
+//     println!("{}", var3);
+    
+//     let var4 = r#"
+//     {
+//         "name": "ajitiro",
+//         "gender": "male"
+//     }"#; // raw sring tidak meng-enscape semua karakter
+//     println!("{}",var4);
+
+// }
+
+
+// A.7
+fn main() {
+    const LABEL: &str = "nilai pi adalah : ";
+    const PI :f32 = 22.0/7.0;
+    println!("{} {}", LABEL, PI); 
+}
